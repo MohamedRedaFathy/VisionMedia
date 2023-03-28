@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply p-0 m-0 box-border;
+  }
+  body {
+    @apply w-[100vw] bg-lightBg dark:bg-darkBg text-lightText dark:text-darkText !overflow-x-hidden  scrollbar-thumb-blue-500 dark:scrollbar-thumb-purple-500  scrollbar-track-gray-50 dark:scrollbar-track-gray-700 scrollbar-thin;
+  }
+
+  a {
+    @apply text-inherit decoration-inherit;
+  }
+}
